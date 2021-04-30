@@ -4,6 +4,7 @@ import heapq
 input = sys.stdin.readline
 
 def heapSort(iterable):
+    h = []
     result = []
     #모든 원소를 차례대로 힙에 삽입
     for value in iterable:
