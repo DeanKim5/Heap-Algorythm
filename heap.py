@@ -24,5 +24,5 @@ for i in range(n):
 
 res = heapSort(arr)
 
-for i in res(n):
+for i in range(n):
     print(res[i])
